@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#div {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+label, input, button, p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+input[type="number"] {
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+#result {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
